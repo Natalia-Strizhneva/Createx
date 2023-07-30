@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  letter-spacing: 0.5px;
+  line-height: 52px;
+  font-weight: 700;
+  padding: 0 40px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #ff3f3a;
+  white-space: nowrap;
+}
+
+/*------------------------------------------*/
+.header {
+  font-weight: 700;
+  color: #424551;
+}
+
+.heder-top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heder__logo {
+  margin-right: 60px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  margin-right: 40px;
+}
+
+.header__nav-item:last-child {
+  margin-right: 0;
+}
+
+.header__nav-link {
+  font-weight: 700;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.header__btn-box {
+  display: flex;
+  align-items: center;
+}
+
+.header__user-nav {
+  white-space: nowrap;
+}/*# sourceMappingURL=style.css.map */
