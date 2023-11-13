@@ -27,6 +27,9 @@
   background-color: #ff3f3a;
   white-space: nowrap;
 }
+.button:hover {
+  transform: scale(1.05);
+}
 
 .logo {
 }
@@ -37,14 +40,15 @@
   font-weight: 700;
   color: #424551;
 }
-.header-top {
+.header__top {
 }
-.heder-top-inner {
+.header__top-inner {
   display: flex;
+  padding: 20px 0;
   justify-content: space-between;
   align-items: center;
 }
-.heder__logo {
+.header__logo {
   margin-right: 60px;
 }
 .header__nav {
@@ -64,16 +68,46 @@
   font-weight: 700;
   line-height: 1.6;
   white-space: nowrap;
+  transition: all 0.3s;
 }
+.header__nav-link:hover {
+  color: #ff3f3a;
+}
+
 .header__btn-box {
   display: flex;
   align-items: center;
 }
 .header__top-btn {
+  margin-right: 36px;
 }
 
 .header__user-nav {
-  white-space: nowrap;
+  position: relative;
+  padding-left: 28px;
 }
+
+.header__user-nav::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: block;
+  background: url(../img/icons/Profile.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.header__user-btn {
+  white-space: nowrap;
+  line-height: 1.6;
+  transition: all 0.3s;
+}
+.header__user-btn:hover {
+  color: #ff3f3a;
+}
+
 .header-body {
+  white-space: nowrap;
 }
