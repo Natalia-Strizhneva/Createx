@@ -212,8 +212,8 @@
 }
 /* -------------------------------------------------------------------------------------------------- */
 .header__img {
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
   object-fit: cover;
 }
 
@@ -313,4 +313,99 @@
   letter-spacing: 1px;
   color: #ff3f3a;
   margin-right: 16px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.directions {
+}
+.container {
+}
+.directions__inner {
+}
+.directions__heading {
+  margin-bottom: 90px;
+}
+.heading {
+}
+.heding__subtitle {
+}
+.heading__title {
+}
+.directions__body {
+}
+.directions__filter-box {
+  display: flex;
+  margin-bottom: 56px;
+}
+.directions__filter-item {
+  margin-right: 45px;
+}
+.directions__filter-item:last-child {
+  margin-right: 0;
+}
+.directions__filter-btn {
+  color: #9a9ca5;
+  border: 1px solid #9a9ca5;
+  font-weight: 700;
+  padding: 0 8px 1px 6px;
+  background-color: transparent;
+  border-radius: 4px;
+  line-height: 160%;
+  font-size: 16px;
+}
+.directions__filter-btn--active {
+  background-color: #ff3f3a;
+  color: #fff;
+  border: 1px solid #ff3f3a;
+}
+.directions__list {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  gap: 30px;
+}
+.directions__list-item {
+}
+.directions__list-link {
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #e5e8ed;
+}
+.directions__img-box {
+}
+.directions__link-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.directions__link-tag {
+  color: #fff;
+  background-color: #272424;
+  border-radius: 4px;
+  align-self: start;
+  padding: 0 8px 1px 6px;
+  line-height: 160%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.directions__link-text {
+  color: #787a80;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.directions__link-btn {
+  color: #1e212c;
+  font-weight: 900;
+  display: flex;
+}
+.directions__link-btn::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../img/icons/rrRight.svg");
+  margin-left: 11px;
+}
+.directions__list-item--empty {
 }
