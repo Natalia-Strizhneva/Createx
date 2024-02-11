@@ -367,6 +367,7 @@
 }
 .directions__list-link:hover {
   box-shadow: 0 1px 15px 10px #e5e8ed;
+  transition: all 0.3s;
 }
 .directions__img-box {
 }
@@ -395,6 +396,10 @@
   color: #1e212c;
   font-weight: 900;
   display: flex;
+}
+.directions__link-btn:hover {
+  color: #ff3f3a;
+  transition: all 0.3s;
 }
 .directions__link-btn::after {
   content: "";
