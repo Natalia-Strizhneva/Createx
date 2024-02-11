@@ -365,6 +365,9 @@
   overflow: hidden;
   border: 1px solid #e5e8ed;
 }
+.directions__list-link:hover {
+  box-shadow: 0 1px 15px 10px #e5e8ed;
+}
 .directions__img-box {
 }
 .directions__link-content {
