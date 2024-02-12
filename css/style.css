@@ -145,14 +145,13 @@
   justify-content: space-between;
   align-items: center;
   color: #1e212c;
-  /* margin: auto 0; */
 }
 
 .header__content {
   margin-right: 30px;
 }
 .header__img {
-  max-height: 300px;
+  max-height: 250px;
 }
 
 .header__title {
@@ -324,7 +323,7 @@
 .directions__heading {
   margin-bottom: 90px;
 }
-.heading {
+.directions__heading {
   text-align: center;
 }
 .heding__subtitle {
