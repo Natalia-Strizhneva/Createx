@@ -311,7 +311,7 @@
 /* ---------------------------------------------------------------------- */
 
 .directions {
-  margin-bottom: 100px;
+  margin-bottom: 180px;
 }
 .container {
 }
@@ -321,6 +321,7 @@
   margin-bottom: 90px;
 }
 .heading {
+  text-align: center;
 }
 .heding__subtitle {
 }
