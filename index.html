@@ -31,9 +31,6 @@
                     <a class="header__nav-link" href="#directions">Courses</a>
                   </li>
                   <li class="header__nav-item">
-                    <a class="header__nav-link" href="#">Events</a>
-                  </li>
-                  <li class="header__nav-item">
                     <a class="header__nav-link" href="#blog">Blog</a>
                   </li>
                   <li class="header__nav-item">
@@ -86,8 +83,10 @@
                     Enjoy studying with Createx Online Courses
                   </h1>
                   <div class="header__content-buttons">
-                    <a class="header__content-btn button" href="#">About us</a>
-                    <a class="header__content-btn button" href="#"
+                    <a class="header__content-btn button" href="#about"
+                      >About us</a
+                    >
+                    <a class="header__content-btn button" href="#directions"
                       >Explore courses</a
                     >
                   </div>
@@ -120,7 +119,7 @@
         </div>
       </header>
       <main class="main">
-        <section class="about">
+        <section id="about" class="about">
           <div class="container">
             <div class="about__inner">
               <div class="about__createx">
@@ -145,8 +144,10 @@
                     </p>
                   </div>
                   <div class="about__btn-box">
-                    <a class="about__btn button" href="#">Explore events</a>
-                    <a class="about__btn button" href="#">Browse courses</a>
+                    <a class="about__btn button" href="#blog">Explore events</a>
+                    <a class="about__btn button" href="#directions"
+                      >Browse courses</a
+                    >
                   </div>
                 </div>
                 <img class="about__img" src="./img/iltion.svg" alt="" />
@@ -177,7 +178,7 @@
             </div>
           </div>
         </section>
-        <section class="directions">
+        <section id="directions" class="directions">
           <div class="container">
             <div class="directions__inner">
               <div class="directions__heading heading">
@@ -252,7 +253,9 @@
                       <img src="./img/directions/1.jpg" alt="" />
                     </div>
                     <div class="directions__link-content">
-                      <div class="directions__link-tag">Marketing</div>
+                      <div class="directions__link-tag tag-marketing">
+                        Marketing
+                      </div>
                       <p class="directions__link-text">
                         Odio posuere netus quisque faucibus lectus arcu donec.
                         Eget dictum eu viverra faucibus. Viverra scelerisque
@@ -271,7 +274,9 @@
                       <img src="./img/directions/2.jpg" alt="" />
                     </div>
                     <div class="directions__link-content">
-                      <div class="directions__link-tag">Management</div>
+                      <div class="directions__link-tag tag-management">
+                        Management
+                      </div>
                       <p class="directions__link-text">
                         Odio posuere netus quisque faucibus lectus arcu donec.
                         Eget dictum eu viverra faucibus. Viverra scelerisque
@@ -290,7 +295,9 @@
                       <img src="./img/directions/3.jpg" alt="" />
                     </div>
                     <div class="directions__link-content">
-                      <div class="directions__link-tag">HR & Recruting</div>
+                      <div class="directions__link-tag tag-hr">
+                        HR & Recruting
+                      </div>
                       <p class="directions__link-text">
                         Odio posuere netus quisque faucibus lectus arcu donec.
                         Eget dictum eu viverra faucibus. Viverra scelerisque
@@ -309,7 +316,7 @@
                       <img src="./img/directions/4.jpg" alt="" />
                     </div>
                     <div class="directions__link-content">
-                      <div class="directions__link-tag">Design</div>
+                      <div class="directions__link-tag tag-design">Design</div>
                       <p class="directions__link-text">
                         Odio posuere netus quisque faucibus lectus arcu donec.
                         Eget dictum eu viverra faucibus. Viverra scelerisque
@@ -328,7 +335,9 @@
                       <img src="./img/directions/5.jpg" alt="" />
                     </div>
                     <div class="directions__link-content">
-                      <div class="directions__link-tag">Development</div>
+                      <div class="directions__link-tag tag-dev">
+                        Development
+                      </div>
                       <p class="directions__link-text">
                         Odio posuere netus quisque faucibus lectus arcu donec.
                         Eget dictum eu viverra faucibus. Viverra scelerisque
@@ -347,6 +356,109 @@
               </ul>
             </div>
           </div>
+        </section>
+        <section id="blog" class="blog">
+          <div class="container">
+            <div class="blog__inner">
+              <div class="blog__top">
+                <div class="heading">
+                  <p class="heding__subtitle">Our blog</p>
+                  <h2 class="heading__title">Latest posts</h2>
+                </div>
+              </div>
+              <ul class="blog__row">
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <article class="blog__item-inner">
+                      <div class="blog__img-box">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__item-content">
+                        <div class="blog__item-info">
+                          <div class="blog__info-dir">Marketing</div>
+                          <span>|</span>
+                          <div class="blog__info-data">January 22, 2024</div>
+                          <span>|</span>
+                          <div class="blog__info-time">36 min</div>
+                        </div>
+                        <h4 class="blog__item-title">
+                          What is traffic arbitrage and does it really make
+                          money?
+                        </h4>
+                        <p class="blog__item-text">
+                          Pharetra, ullamcorper iaculis viverra parturient sed
+                          id sed. Convallis proin dignissim lacus, purus
+                          gravida...
+                        </p>
+                        <div class="blog__item-button">Listen</div>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <article class="blog__item-inner">
+                      <div class="blog__img-box">
+                        <img src="./img/blog/2.jpg" alt="" />
+                      </div>
+                      <div class="blog__item-content">
+                        <div class="blog__item-info">
+                          <div class="blog__info-dir">Management</div>
+                          <span>|</span>
+                          <div class="blog__info-data">February 5, 2024</div>
+                          <span>|</span>
+                          <div class="blog__info-time">45 min</div>
+                        </div>
+                        <h4 class="blog__item-title">
+                          What to do and who to talk to if you want to get
+                          feedback on the product
+                        </h4>
+                        <p class="blog__item-text">
+                          Neque a, senectus consectetur odio in aliquet nec eu.
+                          Ultricies ac nibh urna urna sagittis faucibus...
+                        </p>
+                        <div class="blog__item-button">Watch</div>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <article class="blog__item-inner">
+                      <div class="blog__img-box">
+                        <img src="./img/blog/3.jpg" alt="" />
+                      </div>
+                      <div class="blog__item-content">
+                        <div class="blog__item-info">
+                          <div class="blog__info-dir">Design</div>
+                          <span>|</span>
+                          <div class="blog__info-data">February 19, 2024</div>
+                          <div class="blog__info-time"></div>
+                        </div>
+                        <h4 class="blog__item-title">
+                          Should you choose a creative profession if you are
+                          attracted to creativity?
+                        </h4>
+                        <p class="blog__item-text">
+                          Curabitur nisl tincidunt eros venenatis vestibulum ac
+                          placerat. Tortor, viverra sed vulputate ultrices...
+                        </p>
+                        <div class="blog__item-button">Read</div>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="info" class="info">
+          <div class="container">
+            <div class="info__inner"></div>
+          </div>
+        </section>
+        <section id="questions" class="questions">
+          <div>i</div>
         </section>
       </main>
       <footer class="footer"></footer>

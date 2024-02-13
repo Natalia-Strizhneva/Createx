@@ -151,8 +151,10 @@
   margin-right: 30px;
 }
 .header__img {
-  max-height: 250px;
+  max-height: 300px;
 }
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------- */
 
 .header__title {
   font-weight: 900;
@@ -314,27 +316,20 @@
 /* ---------------------------------------------------------------------- */
 
 .directions {
-  margin-bottom: 180px;
+  padding-top: 20px;
+  margin-bottom: 100px;
 }
-.container {
-}
-.directions__inner {
-}
+
 .directions__heading {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 .directions__heading {
   text-align: center;
 }
-.heding__subtitle {
-}
-.heading__title {
-}
-.directions__body {
-}
+
 .directions__filter-box {
   display: flex;
-  margin-bottom: 56px;
+  margin-bottom: 30px;
 }
 .directions__filter-item {
   margin-right: 45px;
@@ -362,8 +357,7 @@
   grid-template: repeat(2, auto) / repeat(3, 1fr);
   gap: 30px;
 }
-.directions__list-item {
-}
+
 .directions__list-link {
   display: block;
   border-radius: 4px;
@@ -385,7 +379,6 @@
 }
 .directions__link-tag {
   color: #fff;
-  background-color: #272424;
   border-radius: 4px;
   align-self: start;
   padding: 0 8px 1px 6px;
@@ -393,7 +386,21 @@
   font-size: 16px;
   margin-bottom: 20px;
 }
-
+.tag-marketing {
+  background-color: #03cea4;
+}
+.tag-management {
+  background-color: #5a87fc;
+}
+.tag-hr {
+  background-color: #f89828;
+}
+.tag-design {
+  background-color: #f52f6e;
+}
+.tag-dev {
+  background-color: #7772f1;
+}
 .directions__link-text {
   color: #787a80;
   line-height: 160%;
@@ -428,4 +435,67 @@
   width: 240px;
   align-self: center;
   padding: 15px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.blog {
+  padding: 100px 0 200px 0;
+  background-color: #f4f5f6;
+}
+
+.blog__top {
+  margin-bottom: 60px;
+}
+
+.blog__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.blog__item-inner:hover {
+  box-shadow: 2px 0 25px 6px #e5e8ed;
+  transition: all 0.3s;
+}
+
+.blog__img-box {
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.blog__item-info {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #787a80;
+}
+
+.blog__item-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e212c;
+  margin-bottom: 8px;
+}
+.blog__item-text {
+  margin-bottom: 18px;
+  color: #55565a;
+}
+.blog__item-button {
+  color: #1e212c;
+  font-weight: 900;
+  display: flex;
+  padding-bottom: 8px;
+}
+.blog__item-button:hover {
+  color: #ff3f3a;
+  transition: all 0.3s;
+}
+.blog__item-button::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../img/icons/rrRight.svg");
+  margin-left: 11px;
 }
