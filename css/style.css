@@ -219,7 +219,7 @@
 /* -------------------------------------------------------------------------------------------------- */
 
 .about {
-  padding: 120px 0 120px;
+  padding: 80px 0 120px;
 }
 .heading__title {
   font-weight: 900;
@@ -441,7 +441,7 @@
 /* --------------------------------------------------------------------- */
 
 .blog {
-  padding: 80px 0 200px 0;
+  padding: 50px 0 200px 0;
   background-color: #f4f5f6;
 }
 
@@ -499,4 +499,58 @@
   height: 24px;
   background: url("../img/icons/rrRight.svg");
   margin-left: 11px;
+}
+/* ------------------------------------------------------------- */
+
+.info__inner {
+  margin: 180px 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.info__content {
+  margin-right: 25px;
+}
+.info__heading {
+  margin-bottom: 40px;
+}
+
+.info__contents {
+  gap: 25px;
+}
+.info-text {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.info-text:hover {
+  color: #ff3f3a;
+  transform: all, 0.3s;
+}
+.info-text-p {
+  color: #787a80;
+}
+.info-mail {
+  margin-bottom: 25px;
+}
+.info-tel {
+  margin-bottom: 25px;
+}
+.info-address {
+  margin-bottom: 25px;
+}
+
+.info__link {
+  margin-top: 20px;
+}
+.info__link-item {
+  display: flex;
+  gap: 30px;
+}
+.info__links path {
+  transform: all, 0.3s;
+}
+.info__links:hover path {
+  fill: #ff3f3a;
 }
