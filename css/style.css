@@ -205,12 +205,12 @@
   margin: 15px;
 }
 
-.header__row-iteam {
+.header__row-item {
   display: flex;
   align-items: center;
 }
 
-.header__row-iteam span {
+.header__row-item span {
   font-weight: 900;
   font-size: 40px;
   line-height: 130px;
@@ -289,23 +289,23 @@
   object-fit: cover; /*--------отзывчивое изображение*/
 }
 
-.about__nambers {
+.about__numbers {
   align-self: center;
   margin-bottom: 20px;
   margin-left: 30px;
 }
 
-.about__nambers:last-child {
+.about__numbers:last-child {
   margin-bottom: 0;
 }
 
-.about__namber {
+.about__number {
   display: flex;
   align-items: center;
   font-size: 18px;
 }
 
-.about__namber span {
+.about__number span {
   font-weight: 900;
   font-size: 48px;
   line-height: 130%;
@@ -565,19 +565,10 @@
 .questions {
   padding: 20px 0 180px 0;
 }
-
 .questions__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.questions__img {
-}
-.questions__content {
-}
-.info__heading {
-}
-.questions__form {
 }
 .questions__form-row {
   display: flex;
@@ -591,7 +582,6 @@
 .questions__form-label:last-child {
   margin-right: 0;
 }
-
 .questions__form-input,
 .message {
   display: block;
@@ -605,7 +595,6 @@
 .message::placeholder {
   color: #9a9ca5;
 }
-
 .message {
   resize: none;
   height: 100px;
