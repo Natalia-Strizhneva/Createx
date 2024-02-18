@@ -609,3 +609,61 @@
   align-self: center;
   text-align: center;
 }
+
+/* -------------------------------------------------------------- */
+
+.footer {
+  color: #fff;
+  background: #1e212c;
+}
+.footer__top {
+}
+.container {
+}
+.footer__top-inner {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+.footer__top-col {
+}
+.header__logo {
+}
+.logo {
+}
+.footer__top-text {
+  opacity: 0.6;
+}
+.footer__link {
+}
+.footer__link-item {
+}
+.footer__links {
+}
+.footer__top-title {
+}
+.footer__top-list {
+}
+.footer__top-item {
+}
+.footer__item-link {
+}
+.info-text {
+}
+.footer__form {
+}
+.footer__form-input {
+}
+.footer__form-description {
+}
+.footer__bottom {
+  background-color: #292c37;
+  opacity: 0.8;
+}
+.footer__bottom-inner {
+}
+.footer__copy {
+}
+.my__link {
+}
+.footer__go-top {
+}
