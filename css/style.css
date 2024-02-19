@@ -15,9 +15,10 @@
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  /* height: 100%; */
 }
-
+.burger {
+  display: none;
+}
 .button {
   display: inline-block;
   letter-spacing: 0.5px;
@@ -452,9 +453,11 @@
 .blog__row {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
-
+.blog__item {
+  max-width: 385px;
+}
 .blog__item-inner:hover {
   box-shadow: 2px 0 25px 6px #e5e8ed;
   transition: all 0.3s;
@@ -658,8 +661,6 @@
   margin-bottom: 12px;
   white-space: nowrap;
 }
-.footer__top-list {
-}
 .footer__top-item {
   padding-bottom: 8px;
 }
@@ -733,4 +734,22 @@
 .upbtn:hover {
   opacity: 1;
   background-color: #fe5244;
+}
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+@media (max-width: 1100px) {
+  .burger {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__btn-box {
+    display: none;
+  }
+  .header__top-inner {
+    height: 92px;
+  }
 }
