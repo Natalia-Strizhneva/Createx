@@ -549,7 +549,7 @@
   gap: 30px;
 }
 .info__links path {
-  transform: all, 0.3s;
+  transition: all, 0.3s;
 }
 .info__links:hover path {
   fill: #ff3f3a;
@@ -617,53 +617,120 @@
   background: #1e212c;
 }
 .footer__top {
-}
-.container {
+  padding: 80px 0 60px 0;
 }
 .footer__top-inner {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 .footer__top-col {
+  display: flex;
+  flex-direction: column;
 }
-.header__logo {
+.footer__top-col:first-child {
+  max-width: 280px;
 }
-.logo {
+.footer__top-col:last-child {
+  max-width: 285px;
 }
 .footer__top-text {
   opacity: 0.6;
-}
-.footer__link {
+  margin: 25px 0 38px 0;
+  font-size: 12px;
+  line-height: 150%;
 }
 .footer__link-item {
+  display: flex;
+  gap: 30px;
 }
-.footer__links {
+.footer__links path {
+  transition: all, 0.3s;
+}
+.footer__links:hover path {
+  fill: #ffffff;
 }
 .footer__top-title {
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  white-space: nowrap;
 }
 .footer__top-list {
 }
 .footer__top-item {
+  padding-bottom: 8px;
 }
 .footer__item-link {
+  opacity: 0.6;
+  white-space: nowrap;
 }
-.info-text {
-}
-.footer__form {
+.footer__item-link:hover {
+  color: #ffffff;
+  opacity: 1;
+  transition: all, 0.3s;
 }
 .footer__form-input {
+  background: rgba(255, 255, 225, 0.12);
+  border: 1px solid rgba(255, 255, 225, 0.2);
+  border-radius: 4px;
+  padding: 9px 12px;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  width: 100%;
+  margin: 12px 0;
+}
+.footer__form-input::placeholder {
+  color: #ffffff;
+  opacity: 0.6;
 }
 .footer__form-description {
+  font-size: 10px;
+  opacity: 0.9;
 }
 .footer__bottom {
   background-color: #292c37;
   opacity: 0.8;
 }
-.footer__bottom-inner {
-}
+
 .footer__copy {
+  padding: 20px 0;
+}
+.footer__copy span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(../img/icons/Heart.svg) 0 0 / 100% 100% no-repeat;
+  vertical-align: top;
 }
 .my__link {
+  font-style: italic;
+  color: #ffffff;
+  opacity: 0.6;
 }
-.footer__go-top {
+
+/* ------------------------------------- */
+
+.upbtn {
+  opacity: 0.8;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: -80px;
+  right: 20px;
+  cursor: pointer;
+  /* border: 1px solid #fe5444be; */
+  transition: all 0.3s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../img/icons/up.svg);
+}
+.upbtn:hover {
+  opacity: 1;
+  background-color: #fe5244;
 }
