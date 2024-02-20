@@ -15,12 +15,13 @@
 
   <body id="body">
     <div class="wrapper">
-      <a href="#" class="burger"> <span></span></a>
+      <div class="overlay"></div>
+      <a href="#" class="burger burger--follow"> <span></span></a>
       <header class="header">
-        <div id="top" class="header__top">
+        <div id="top" class="header__top header__top--open">
           <div class="container">
             <div class="header__top-inner">
-              <a class="header__logo logo" href="#top">
+              <a class="header__logo logo" href="#body">
                 <img src="img/logo.svg" alt="Logo" />
               </a>
               <nav class="header__nav">
@@ -54,6 +55,9 @@
         </div>
         <div class="header__body">
           <div class="container">
+            <a class="header__logo--burger" href="#top">
+              <img src="img/logo.svg" alt="Logo" />
+            </a>
             <div class="header__body-inner">
               <div class="header__main">
                 <div class="header__content">

@@ -40,3 +40,23 @@ $(".upbtn").on("click", function () {
   );
   return false;
 });
+
+//burger
+//setInterval проверяет условия постоянно, а не только при скролле
+
+setInterval(() => {
+  if (
+    $(window).scrollTop() > 10 &&
+    $(".header__top").hasClass("header__top--open")
+  ) {
+    $(".burger").addClass("burger--follow");
+  } else {
+    $(".burger").removeClass("burger--follow");
+  }
+}, 0);
+//при нажатии на overlay - burger закрывается
+$(".burger, .overlay").on("click", function (e) {
+  e.preventDefault();
+  $(".header__top").toggleClass("header__top--open");
+  $(".overlay").toggleClass("overlay--show");
+});
