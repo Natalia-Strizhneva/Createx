@@ -60,3 +60,7 @@ $(".burger, .overlay").on("click", function (e) {
   $(".header__top").toggleClass("header__top--open");
   $(".overlay").toggleClass("overlay--show");
 });
+
+$(".footer__top-title").on("click", function () {
+  $(this).next().slideToggle();
+});

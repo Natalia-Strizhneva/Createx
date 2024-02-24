@@ -800,7 +800,7 @@
   }
 
   .header__top {
-    min-width: 320px;
+    min-width: 260px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -840,6 +840,9 @@
   }
   .upbtn {
     display: none;
+  }
+  .footer__top-inner {
+    flex-wrap: wrap;
   }
 }
 
@@ -899,6 +902,17 @@
     font-size: 18px;
     width: 100%;
   }
+  .footer__top-inner {
+    flex-direction: column;
+  }
+  .footer__top-title {
+    margin: 0;
+    cursor: pointer;
+  }
+  .footer__top-list {
+    margin-top: 12px;
+    display: none;
+  }
 }
 
 /* ---------------------------------------------- */
@@ -927,7 +941,7 @@
 
   .header__top {
     min-width: none;
-    width: 100%;
+    width: 150px;
   }
 
   .header__nav-list {
@@ -962,24 +976,6 @@
   .about__createx {
     margin-bottom: 100px;
   }
-
-  /* .directions__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .directions__filter-btn {
-    margin: 5px;
-  }
-  .directions__filter-item {
-    margin-right: 1px;
-  }
-  .directions__link-text {
-    display: none;
-  }
-  .directions__link-btn {
-    white-space: nowrap;
-  } */
   .blog {
     padding: 30px 0 50px 0;
   }
@@ -1025,9 +1021,4 @@
   .footer__copy {
     font-size: 14px;
   }
-}
-
-/* ---------------------------------------------- */
-
-@media (min-width: 440px) {
 }
