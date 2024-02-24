@@ -231,7 +231,7 @@
 .header__row-item span {
   font-weight: 900;
   font-size: 40px;
-  line-height: 130px;
+  line-height: 130%;
   margin-right: 12px;
 }
 /* -------------------------------------------------------------------------------------------------- */
@@ -842,6 +842,24 @@
     display: none;
   }
 }
+
+/* --------------------------------------------- */
+
+@media (max-width: 900px) {
+  .header__title {
+    font-size: 42px;
+    max-width: 340px;
+    margin-bottom: 50px;
+  }
+  .header__row-item span {
+    font-size: 38px;
+  }
+  .button {
+    padding: 0 25px;
+  }
+}
+
+/* --------------------------------------------- */
 
 @media (max-width: 440px) {
   .header__top {
